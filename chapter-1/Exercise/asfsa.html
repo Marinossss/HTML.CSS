@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Συνδυασμός :link, :visited, :hover, :focus, :active</title>
+  <style>
+    a:link {
+      color: blue; /* Μπλε για μη επισκεμμένους συνδέσμους */
+    }
+    a:visited {
+      color: purple; /* Μωβ για επισκεμμένους συνδέσμους */
+    }
+    a:hover {
+      color: green; /* Πράσινο όταν ο χρήστης περνά το ποντίκι πάνω από τον σύνδεσμο */
+      text-decoration: underline; /* Υπογράμμιση κατά την υπερπτήση */
+    }
+    a:focus {
+      outline: 2px solid orange; /* Περίγραμμα πορτοκαλί όταν ο σύνδεσμος είναι επιλεγμένος με το πληκτρολόγιο */
+    }
+    a:active {
+      color: red; /* Κόκκινο κατά τη διάρκεια του κλικ */
+    }
+  </style>
+</head>
+<body>
+  <a href="https://example.com">Επισκεφτείτε το παράδειγμα</a>
+</body>
+</html>

@@ -1,0 +1,10 @@
+p {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */ /*το ιδιο με το κατω */
+    overflow: auto; /* φτιαχνει μια μπαρα μεσα για ναμην ξεχυλιζει */
+
+}
